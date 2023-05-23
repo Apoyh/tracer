@@ -33,6 +33,134 @@
       <form class=" shadow p-3 mb-5 bg-body-tertiary rounded">
         <h5>Kuesioner Wajib</h1>
           
+          <!-- pertanyaan no 6 -->
+
+          <p>6. Bila biraswasta, apa posisi/jabatan Anda saat ini?(Apabila 1 Menjawab[3] wiraswasta)</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Silahkan pilih</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select><br>
+          
+          <!-- pertanyaan no 7 -->
+
+          <p>7. Apa tingkat kerja Anda?</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Nasional/Wirasuasta berbadan hukum</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+          </select><br>
+
+          <!-- pertanyaan no 8 -->
+
+          <p>8. Pertanyaan studi lanjut</p>
+          <div class="row">
+            <div class="col-6 mb-3">
+              <label for="exampleInputEmail1" class="form-label">Sumber biaya</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Silahkan pilih</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select><br>
+            </div><br>
+            <div class="col-6 mb-3">
+              <label for="exampleInputEmail1" class="form-label">Berapa rata-rata pendapatan anda perbulan?</label>
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div><br>
+            <div class="col-6">
+              <label for="">Program studi</label>
+              <input class="form-control" type="text" placeholder="Silahkan perguruan tinggi terlebih dahulu" aria-label="default input example">
+            </div>
+            <div class="col-6 mb-3">
+              <label for="exampleInputEmail1" class="form-label">Tanggal masuk</label>
+              <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div><br>
+
+          <!-- pertanyaan no 9 -->
+
+          <p>9. Sebutkan sumber dana dalam pembiayaan kuliah/*(bukan ketika Studi lanjut)</p>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Biaya sendiri/Keluarga
+             </label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Biaya siswa ADIK
+             </label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Biaya siswa BIDIKMISI
+             </label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Biaya siswa PPA
+             </label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Biaya siswa AFIRMASI
+             </label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Biaya siswa perusahaan/Swasta
+            </label>
+          </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+               Lainnya,Tuliskan
+             </label>
+           </div>
+           <input type="text" class="form-control w-50" id="inputLainnya">
+           <br><br>
+            
+           <!-- pertanyaan no 10 -->
+
+           <p>10. Seberapa erat hubungan bidang studi dengan pekerjaan Anda</p>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Sangat erat
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Erat
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Cukup Erat
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Kurang Erat
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Tidak Sama Sekali
+            </label>
+          </div><br><br>
+
+          
           <p>11. Tingkat pendidikan apa yang paling tepat/sesuai untuk pekerjaan anda saat ini?</p>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -57,7 +185,7 @@
             <label class="form-check-label" for="flexRadioDefault1">
               Tidak Perlu Pendidikan Tinggi
             </label>
-          </div>
+          </div><br><br>
           <!-- pertanyaan no 12 -->
 
           <p>12. Pada saat lulus, pada tingkat mana kompetensi di bawah ini anda: kuasai (A) Pada saat ini ,pada tingkat mana kompetensi di bawah ini di perlukan dalam pekerjaan? (B)</p>
@@ -450,8 +578,6 @@
       </f
       orm>
 
-
-
           <!-- pertanyaan no 13 -->
           <p>13. Menurut anda berapa besar penekanan pada metode pembelajaran dibawah ini dilaksanakan di program studi anda?  </p>
           <div class="row">
@@ -818,7 +944,7 @@
             </label>
           </div>
           
-         <!-- pertanyaan no 16 -->
+        
             
 
 </body>
